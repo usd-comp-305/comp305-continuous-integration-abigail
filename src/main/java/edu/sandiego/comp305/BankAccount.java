@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BankAccount {
-    private final double balance;
+    private double balance;
     private final String accountHolder;
     private final String accountType; // e.g., "SAVINGS" or "CHECKING"
     private final List<String> history;
